@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/eijitnk/tnkdigitador/issues"
   },
-  "homepage": "https://github.com/eijitnk/tnkdigitador#readme"
+  "homepage": "https://github.com/eijitnk/tnkdigitador#readme",
+  "devDependencies": {}
 }
