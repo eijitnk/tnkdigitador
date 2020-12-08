@@ -1,0 +1,26 @@
+{
+  "name": "tnkdigitador",
+  "version": "1.0.0",
+  "description": "teste Digitador",
+  "main": "server.js",
+  "dependencies": {
+    "consign": "^0.1.2",
+    "body-parser": "^1.15.2",
+    "nedb": "^1.8.0",
+    "express": "^4.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eijitnk/tnkdigitador.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eijitnk/tnkdigitador/issues"
+  },
+  "homepage": "https://github.com/eijitnk/tnkdigitador#readme"
+}
