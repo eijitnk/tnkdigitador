@@ -4,7 +4,7 @@ $("#botao-frase-id").click(buscaFrase);
 function fraseAleatoria() {
 
     $("#spinner").toggle();
-    $.get("http://localhost:3000/frases",trocaFraseAleatoria)
+    $.get("https://tnkdigitador.herokuapp.com/frases",trocaFraseAleatoria)
     .fail(function() {
         $("#erro").toggle()
         setTimeout(function() {
@@ -32,7 +32,7 @@ function buscaFrase() {
     //console.log("Id da minha frase:" + fraseId);
     var dados = { id: fraseId };
 
-    $.get("http://localhost:3000/frases", dados,trocaFrase)
+    $.get("https://tnkdigitador.herokuapp.com/frases", dados,trocaFrase)
     .fail(function() {
         $("#erro").toggle();
         setTimeout(function() {
