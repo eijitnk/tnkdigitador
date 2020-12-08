@@ -1,6 +1,6 @@
 var http = require('http');
-var app = require('./servidor/config/express');
+var app = require('./config/express');
 
-http.createServer(app).listen(3000, function() {
+http.createServer(app).listen(process.env.PORT || 3000, function() {
 	console.log('Servidor iniciado');
 });
