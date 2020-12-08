@@ -24,4 +24,4 @@ api.lista = function(req, res) {
 
 };
 
-export default api;
+module.exports = api;

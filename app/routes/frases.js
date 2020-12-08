@@ -1,4 +1,4 @@
-export default function(app) {
+module.exports = function(app) {
 
 	var api = app.api.frases;
 
